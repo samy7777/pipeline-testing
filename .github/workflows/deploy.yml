@@ -19,7 +19,7 @@ jobs:
           node-version: '16'  # Adjust the version if needed
 
       - name: Install Dependencies
-        run: npm install
+        run: npm install -f
 
       - name: Build Vite App
         run: npm run build  # Vite's build command
